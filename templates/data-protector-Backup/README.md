@@ -14,10 +14,10 @@ These templates use Data Protector command line to execute commands on the Data 
 - *dpForWin.cfg* to monitor Windows Data Protector servers
 - *dpForUnix.cfg* to monitor Linux/Unix Data Protector servers
 
-Once appropriate template is imported into a TrueSight CMA policy for Monitoring Studio X (Configuration Variables), you need to:
-- add the Data Protector servers with appropraite *System Credentials* that allow connecting to the server and run Data Protector CLIs
+Once the template is imported into a TrueSight CMA policy for Monitoring Studio X (Configuration Variables), you need to:
+- add the Data Protector servers with appropriate *System Credentials* that allow connecting to the server and run Data Protector CLIs
 - associate the template (*dpForWin* or *dpForUnix*)
-- (optional) change the macros by adding them to the *Required Macros*
+- (optional) change the default macros by adding them to the *Required Macros*
 
 
 ## Required Macros
