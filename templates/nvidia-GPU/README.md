@@ -1,15 +1,18 @@
-Rabbit MQ Monitoring
-====================
+Nvidia GPU Monitoring
+=====================
 
-Provides monitoring of the Rabbit MQ:
+Provides monitoring of the Nvidia graphics card:
 
-* Channels
-* Connections
-* Exchanges
-* Nodes status and performance
-* Queue status and performance
+* GPU Utilization
+* GPU Temperature
+* Memory
+* Performance
+* Power
 
-The template uses the Rabbit MQ REST API.
 
-* Add the Rabbit MQ host under the hosts tab and define the system type as `other`.
-* Provide appropriate RabbitAPI username and password to access the API and the port number.
+The template uses the nvidia-smi cli utility installed on the server being monitored.
+
+* Add the server with the GPU under the hosts tab and define the system type depending on the OS.
+* Provide NVSMI_PATH value with the installation location of the nvidia-smi cli.
+
+This is just a base and more commands can be configured to monitor additional metrics.
