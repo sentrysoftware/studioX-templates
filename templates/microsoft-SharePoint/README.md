@@ -1,7 +1,7 @@
 Microsoft SharePoint Monitoring
 ===============================
 
-Provides monitoring of the Microsoft SharePoint:
+Provides monitoring of Microsoft SharePoint:
 
 * Content Database
 * SharePoint Event Logs
