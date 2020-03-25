@@ -14,8 +14,9 @@ Provides monitoring of:
 
 In addition, you can add SQL queries and process the results using the "Analysis" feature.
 
-* Import the cfg and activate it on the Host where the SQL Server Database is installed.
-* Set the System Credentials to access the server
-* Set the Credentials "sq_sa" to access the Database
+Import the cfg and activate it on the Host where the SQL Server Database is installed.
 
-On the Host Settings, provide appropriate Database name and port number under SQLServer Database Connection Settings.
+On the Host Settings
+* Provide appropriate Database name and port number under SQLServer Database Connection Settings.
+* Set the System Credentials to access the server
+* Set the Credentials "SQL_SA" to access the Database
