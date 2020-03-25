@@ -7,7 +7,7 @@ Provides monitoring of:
 * Logs
 * Data Directory
 * Events
-* Performance metrics.
+* Performance metrics
 * Running Processes
 * Services
 
