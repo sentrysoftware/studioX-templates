@@ -1,5 +1,5 @@
-Nutanix Appliance Monitoring
-============================
+Nutanix Appliance Monitoring - SNMP
+===================================
 
 Monitors the Nutanix Appliance Cluster.
 
