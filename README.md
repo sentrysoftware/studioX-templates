@@ -1,6 +1,6 @@
 # Templates for Monitoring Studio X
 
-This GitHub repository is a public collection of [Templates](//www.sentrysoftware.com/library/swsy10/hosts-templates.html) for [Monitoring Studio X](//www.sentrysoftware.com/products/km-monitoring-studio-x.asp), a monitoring solution developed by Sentry Software.
+This GitHub repository is a public collection of [Templates](//www.sentrysoftware.com/library/swsyx/hosts-templates.html) for [Monitoring Studio X](//www.sentrysoftware.com/products/km-monitoring-studio-x.asp), a monitoring solution developed by Sentry Software.
 
 In a BMC TrueSight Operations Management environment, **Monitoring Studio X** will integrate natively as a regular KM for PATROL. But a single standalone PATROL Agent with Monitoring Studio KM will be enough to cover a small environment (less than 200 servers, typically).
 
@@ -17,9 +17,9 @@ You will need:
 
 Each template is in a separate sub-directory in [./templates](//github.com/sentrysoftware/studioX-templates/tree/master/templates).
 
-Download the .cfg file and [import it in Monitoring Studio X](//www.sentrysoftware.com/library/swsy10/hosts-templates.html#Importing_a_Template).
+Download the .cfg file and [import it in Monitoring Studio X](//www.sentrysoftware.com/library/swsyx/hosts-templates.html#Importing_a_Template).
 
-In **Monitoring Studio X**, [create the Host](//www.sentrysoftware.com/library/swsy10/hosts-templates.html#Step_1_Defining_Hosts) you want to monitor with this *Template* and apply the *Template*.
+In **Monitoring Studio X**, [create the Host](//www.sentrysoftware.com/library/swsyx/hosts-templates.html#Step_1_Defining_Hosts) you want to monitor with this *Template* and apply the *Template*.
 
 Read carefully the associated **README.md** for instructions on the required configuration and technical prerequisites of the *Template*.
 
