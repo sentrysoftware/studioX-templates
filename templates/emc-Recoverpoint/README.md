@@ -1,4 +1,4 @@
-Recoverpoint Monitoring
+Dell EMC Recoverpoint Monitoring
 =======================
 
 Provides monitoring of the Recoverpoint appliance:
