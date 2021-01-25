@@ -1,4 +1,4 @@
-Microsoft SharePoint Monitoring
+Microsoft SharePoint 2016 Monitoring
 ===============================
 
 Provides monitoring of Microsoft SharePoint:
