@@ -1,6 +1,6 @@
 # Templates for Monitoring Studio X
 
-This GitHub repository is a public collection of [Templates](//www.sentrysoftware.com/library/swsyx/hosts-templates.html) for [Monitoring Studio X](//www.sentrysoftware.com/products/km-monitoring-studio-x.asp), a monitoring solution developed by Sentry Software.
+This GitHub repository is a public collection of [Templates](//www.sentrysoftware.com/library/swsyx/hosts-templates.html) for [Monitoring Studio X](/www.sentrysoftware.com/products/km-monitoring-studio-x.html), a monitoring solution developed by Sentry Software.
 
 In a BMC TrueSight Operations Management environment, **Monitoring Studio X** will integrate natively as a regular KM for PATROL. But a single standalone PATROL Agent with Monitoring Studio KM will be enough to cover a small environment (less than 200 servers, typically).
 
