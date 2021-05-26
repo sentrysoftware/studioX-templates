@@ -1,0 +1,17 @@
+Prometheus Exporter
+===================
+
+Consumes data exposed by a Prometheus exporter.
+
+The data is sorted by metric types:
+* Bytes (converted to MB to try and stay below the highest acceptable value for a PATROL parameter)
+* Fractions
+* Hertz / MHz
+* Seconds
+* Other metrics
+
+Feel free to add, remove, modify the Dynamic Instances representing the metric types.
+Add thresholds when appropriate.
+
+Import the .cfg file to add it to list of Templates.
+Set the %{ENDPOINT} and %{PORT} macros with the appropriate values.
