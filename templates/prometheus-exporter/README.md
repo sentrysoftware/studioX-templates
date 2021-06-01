@@ -1,6 +1,8 @@
 Prometheus Exporter
 ===================
 
+Requires Monitoring Studio X v10.3 or Higher.
+
 Consumes data exposed by a Prometheus exporter.
 
 The data is sorted by metric types:
