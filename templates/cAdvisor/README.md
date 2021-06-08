@@ -1,7 +1,7 @@
 Docker Monitoring using cAdvisor
 ================================
 
-This template provides monitoring of the docker containers and file systems using cAdvisor.
+This template provides monitoring of the docker containers and file systems using cAdvisor (https://github.com/google/cadvisor).
 
 * File System Statistics
 * Container statistics
