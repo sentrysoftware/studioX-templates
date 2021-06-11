@@ -17,3 +17,5 @@ Add thresholds when appropriate.
 
 Import the .cfg file to add it to list of Templates.
 Set the %{ENDPOINT} and %{PORT} macros with the appropriate values.
+
+For more information about the Prometheus Exporter Template, refer to [Consuming Prometheus Metrics in Monitoring Studio X](https://www.sentrysoftware.com/support/user-documentation.html).
