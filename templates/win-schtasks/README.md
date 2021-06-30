@@ -13,3 +13,5 @@ Monitors Windows' Scheduled Tasks:
 Use the `EXCLUDE_TASKS_REGEX` macro to specify a regular expression to exclude specific tasks. Example: `BrokerInfrastructure\|MemoryCheck`
 
 > Note: You need to use PSL's *grep()* syntax. `exprA\|exprB` means `exprA` **OR** `exprB`.
+
+**IMPORTANT: Requires Monitoring Studio X 10.3**
