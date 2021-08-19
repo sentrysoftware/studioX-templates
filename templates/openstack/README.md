@@ -26,7 +26,6 @@ export OS_TENANT_ID=<TENANT_ID>
 export OS_TENANT_NAME="<TENANT_NAME>"
 export OS_USERNAME="<USER_NAME>"
 ```
-*
 
 * Add the host where the OpenStack CLI is installed and provide the system credentials to logon and execute the script.
 * Activate the OpenStack Template and provide the password for the OpenStack user in the **OS_PASSWORD** macro field.
