@@ -14,4 +14,5 @@ Powershell modules: ExchangeOnlineManagement, MSOnline
 
 Steps:
 - When assigning the template to the hosts, the Office 365 Credentials must be provided for the cmdlets to function.
+- The proper Execution Policies must be set for the user running the powershell cmdlets. See https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.1 for more information.
 - The office365Powershell:subscriptions:subscriptionsBySKU:licensesUsed monitor thresholds need to be configured manually at this time.

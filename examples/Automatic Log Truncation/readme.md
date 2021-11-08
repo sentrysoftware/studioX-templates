@@ -4,7 +4,7 @@ This template shows how to monitor a partition size and truncate the associated 
 
 <strong>Command Line Monitor - Command Log Size Verification</strong>
 
-Command ran on host:
+Command run on host:
 df -h /EMC/backend/log_shared
 
 In this monitor, we are simply launching the command that will gather the size of the partition where the log is stored. This command will likely be different based on the platform against which it is used or even based on system configuration.
@@ -21,7 +21,7 @@ We then also added an alarm alert at a threshold of 60% usage, so that we receiv
 
 <strong>Command Line Monitor - Log Truncate</strong>
 
-Command ran on host:
+Command run on host:
 psql -U c4 c4LoggingDatabase -c 'truncate "CST_LogRecord" cascade'
 
 In this monitor, we are simply launching the command that will truncate our problematic log file. This command will almost certainly be different based on the platform against which it is used or even based on system configuration. Important note here is that we set this command to only run manually (or in our case, when called as an alert action). This is to avoid the host to attempt to truncate the logs every two minutes (default collection interval).

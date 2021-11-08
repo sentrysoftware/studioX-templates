@@ -4,7 +4,7 @@ This template shows how to monitor all Performance Counter Instances concurrentl
 
 <strong>Command Line Monitor - Command Gathering All Desired Performance Counter Instances</strong>
 
-Command ran on host:
+Command run on host:
 wmic path Win32_PerfFormattedData_PerfOS_Processor get Name,PercentUserTime /value /format:CSV
 
 In this monitor, we are simply launching the command that will gather all the instances using the wmic command for windows. We added /value and /format:CSV for formatting reasons. Each value will be listed on a separate line and it will be formatted as a CSV, separated by commas. This will come in handy in the next step. Note that this will require valid System Credentials.
