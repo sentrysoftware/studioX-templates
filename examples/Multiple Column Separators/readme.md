@@ -5,15 +5,16 @@ This template shows how to set multiple column separators. This is a very basic 
 <strong>Command Line Monitor - Sample File</strong>
 
 Command run on host:
+```bash
 cat %{FILE:sampleoutput.txt}
-
+```
 This monitor is the method with which we retrieve our output to be parsed. In our case, we simply embedded a test file to the template (at the template level). In your setup, you will be using a different monitor to do so. This template was made to demonstrate what is done after we've collected the output, so we will not be going over all the different methods of obtaining said output.
-
+ ```bash
 Sample Output:
 Name1:Test1
 Name2>Test2
 Name3=Test3
-
+```
 <strong>Dynamic Instances - Dynamic Examples</strong>
 
-In this monitor, we use dynamic instances to create one MSX instance per line from out output. This way, we will be able to separate all of the instances, so that each can be monitored independently. We used 3 separate column separators (":","=" and ">" ). This can be useful when data is obtained and concatenated from several sources, or simply if we have several different separators in any given line. Any sub-monitors beyond this one will also require to have the same separators set to function properly.
+In this monitor, we use dynamic instances to create one Monitoring Studio X instance per line from out output. This way, we will be able to separate all of the instances, so that each can be monitored independently. We used 3 separate column separators (":","=" and ">" ). This can be useful when data is obtained and concatenated from several sources, or simply if we have several different separators in any given line. Any sub-monitors beyond this one will also require to have the same separators set to function properly.

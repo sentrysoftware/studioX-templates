@@ -5,11 +5,13 @@ This template shows how to monitor the output of a XML file, then capturing spec
 <strong>Command Line Monitor - Sample XML</strong>
 
 Command run on host:
+```bash
 cat %{FILE:sample.xml}
-
+```
 This monitor is the method with which we retrieve the XML file. In our case, we simply embedded a XML file to the template (at the template level). In your setup, you will be using a different monitor to do so. This template was made to demonstrate what is done after we've collected the XML file, so we will not be going over all the different methods of obtaining said XML file.
 
 Sample Output:
+```XML
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
   <accounts>
@@ -29,14 +31,14 @@ Sample Output:
     <daysSinceLastLogin>1</daysSinceLastLogin>
   </accounts>
 </root>
-
+```
 <strong>Text Pre-Processing - XML Pre-Processing</strong>
 
 This monitor will be used to convert the XML in a different format, in this case CSV. This will enable us to convert each line into Dynamic Instances further down the line. We set our XML Record Tag to accounts and our properties to userID;firstName;lastName;accountLocked;passwordExpiresIn;daysSinceLastLogin, to match the Record Tag of the XML file as well as specifying which properties we want included in our CSV. Finally, we set our result separator as ";", which will be the separator used in our CSV output.
 
 <strong>Dynamic Instances - User Account Instances</strong>
 
-In this monitor, we use dynamic instances to create one MSX instance per CSV line. This way, we will be able to separate all of the instances, so that each can be monitored independently. By specifying the separators earlier, we can now set our Column Separators as ";". Since several set of names could theoretically contain duplicates, we opted to use multiple columns to name each instance.
+In this monitor, we use dynamic instances to create one Monitoring Studio X instance per CSV line. This way, we will be able to separate all of the instances, so that each can be monitored independently. By specifying the separators earlier, we can now set our Column Separators as ";". Since several set of names could theoretically contain duplicates, we opted to use multiple columns to name each instance.
 
 <strong>Value Map - Account Locked</strong>
 

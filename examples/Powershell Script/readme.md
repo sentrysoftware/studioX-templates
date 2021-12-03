@@ -7,21 +7,26 @@ For powershell scripts to run successfully, the execution policy needs to be set
 <strong>Command Line Monitor - Powershell Command Embedded File</strong>
 
 Command run on host:
+```bash
 @powershell.exe -inputformat none %{FILE:samplepowershell.ps1} test example result
-
+```
 In this monitor, we use the "@powershell.exe -inputformat none" to specify that we are launching the following script through Powershell. In this scenario, we embedded a Powershell script in our template, viewable at the template root level. We also added arguments (test example result) which will be added to the output of the script ($args[0] $args[1] $args[2]). This functions exactly like it typically would for powershell scripts.
 
 Sample output:
+```bash
 This is the output of my powershell script. My arguments specified
  in the command line are test, example and result.
-
+```
 <strong>Command Line Monitor - Powershell Command Host File</strong>
 
 Command run on host:
+```bash
 @powershell.exe -inputformat none %{FILE:samplepowershell.ps1} test example result
-
+```
 In this monitor, we use the "@powershell.exe -inputformat none" to specify that we are launching the following script through Powershell. In this scenario, we are using a Powershell script located on the host system. We also added arguments (test example result) which will be added to the output of the script ($args[0] $args[1] $args[2]). This functions exactly like it typically would for powershell scripts.
 
 Sample output:
+```bash
 This is the output of my powershell script. My arguments specified
  in the command line are test, example and result.
+```
