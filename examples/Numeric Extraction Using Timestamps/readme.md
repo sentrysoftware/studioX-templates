@@ -11,7 +11,7 @@ echo Value:9.99e+30
 This monitor is the method with which we retrieve our output to be parsed. In our case, we simply used echo to receive an output to parse in the next monitor. In your setup, you will be using a different monitor to do so. This template was made to demonstrate what is done after we've collected the output, so we will not be going over all the different methods of obtaining said output.
 
 Sample Output:
-```bash
+```
 Timestamp: 01/01/2021 00:09:00
 ```
 <strong>Numeric Extraction - Timestamp Extraction</strong>

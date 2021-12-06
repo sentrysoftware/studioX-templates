@@ -9,7 +9,7 @@ Command run on host:
 cat %{FILE:sampleoutput.txt}
 ```
 This monitor is the method with which we retrieve our output to be parsed. In our case, we simply embedded a test file to the template (at the template level). In your setup, you will be using a different monitor to do so. This template was made to demonstrate what is done after we've collected the output, so we will not be going over all the different methods of obtaining said output.
- ```bash
+```
 Sample Output:
 Name1:Test1
 Name2>Test2

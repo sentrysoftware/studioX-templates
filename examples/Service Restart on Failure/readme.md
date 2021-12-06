@@ -7,7 +7,7 @@ This template shows how to setup monitoring and an alert action in order to rest
 In this monitor, we are simply selecting a service to monitor. We can set different status based on what should be the expected status of the service. We have then set an Alarm that will automatically launch our other monitor, attempting to restart the service.
 
 Sample output:
-```bash
+```
 Service Name: SNMPTRAP
 Description: SNMP Trap;
 State: Running (OK)
@@ -17,7 +17,7 @@ Exit Code: 0
 <strong>Command Line Monitor - Service Restart Command</strong>
 
 Command run on host:
-```bash
+```bat
 net start SNMPTRAP
 ```
 In this monitor, we are simply launching the command that will start our problematic service. Important note here is that we set this command to only run manually (or in our case, when called as an alert action). This is to avoid the host to attempt to truncate the logs every two minutes (default collection interval).

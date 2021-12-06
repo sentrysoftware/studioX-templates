@@ -14,7 +14,7 @@ In this monitor, we are simply launching the command that will gather all the in
 The first column will be your hostname, the second will be the instance name and the third one will be the actual value we want monitored: % User Time.
 
 Sample output:
-```bash
+```
 Node,Name,PercentUserTime
 ExampleHostname,0,0
 ExampleHostname,1,12

@@ -10,7 +10,7 @@ df -h /EMC/backend/log_shared
 In this monitor, we are simply launching the command that will gather the size of the partition where the log is stored. This command will likely be different based on the platform against which it is used or even based on system configuration.
 
 Sample output:
-```bash
+```
 Filesystem                    Size  Used  Avail   Use%  Mounted on
 /EMC/backend/log_shared       251G  2.2G  236G    1%    /EMC
 ```
