@@ -1,8 +1,9 @@
-<strong>CQL Queries Using a Command Line Monitor</strong>
+CQL Queries Using a Command Line Monitor
 ====================================================
 This template shows how to send CQL (Cassandra Query Language) queries within Monitoring Studio X, leveraging the Command Line monitor. As of the current version, we do not have a CQL query monitor, as such this is the simplest method of querying a Cassandra Database.  
 
-This query leverages the cqlsh command which is typically shipped with every Cassandra package, usually found in the /bin folder alongside the Cassandra executable. You can refer to the CQLSH reference document for query or syntax concerns: https://docs.datastax.com/en/dse/5.1/cql/cql/cql_reference/cqlsh_commands/cqlshCommandsTOC.html.
+This query leverages the cqlsh command which is typically shipped with every Cassandra package, usually found in the /bin folder alongside the Cassandra executable. You can refer to the [CQLSH reference document](https://docs.datastax.com/en/dse/5.1/cql/cql/cql_reference/cqlsh_commands/cqlshCommandsTOC.html) for query or sytax concerns.
+
 
 <strong>Command Line Monitor - CQL Query Using cqlsh</strong>
 
@@ -19,4 +20,4 @@ Jane    Doe
 Bob     Ross
 ```
 
-From here, any content parsing monitors can be used to parse the output of the query as with any other monitors. (Dynamic Instances, Numeric Extractions, String Search, etc.) 
+From here, any content parsing monitors can be used to parse the output of the query as with any other monitors. (Dynamic Instances, Numeric Extractions, String Search, etc.)
