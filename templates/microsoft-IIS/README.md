@@ -11,6 +11,7 @@ Pre-requisites
 
 * Powershell version 5.1 or above installed on monitored host
 * Module IISAdministration installed on monitored host
+* Powershell Execution Policy needs to be set to allow the scripts to be run, typically `RemoteSigned`.
 
 Using the Template
 
