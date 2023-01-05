@@ -27,4 +27,4 @@ Once the template is imported into a TrueSight/Helix CMA policy for Monitoring S
 ## Required Macros
 
 The templates use following required macros. If you prefer to leave as default, do not add them to the *Required Macros* in the *Associated Templates* in the TrueSight CMA policy.
-- **JOB_HOURS**: Number of hours completed jobs are monitored for. Default: 24 hours
+- **JOB_HOURS**: Number of hours completed jobs are monitored for. Default: 48 hours
