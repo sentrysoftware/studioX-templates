@@ -1,6 +1,6 @@
 # Micro Focus Data Protector (formerly HP Data Protector or OmniBack II)
 
-[![Static Badge](https://img.shields.io/badge/DOWNLOAD%20FOR%20WINDOWS-.cfg-blue?style=for-the-badge&color=B071DC)](https://github.com/sentrysoftware/studioX-templates/raw/refs/heads/master/templates/data-protector-Backup/dpForWin.cfg)[![Static Badge](https://img.shields.io/badge/DOWNLOAD%20FOR%20UNIX-.cfg-blue?style=for-the-badge&color=4CAF50)](https://github.com/sentrysoftware/studioX-templates/raw/refs/heads/master/templates/data-protector-Backup/dpForUnix.cfg) [![Static Badge](https://img.shields.io/badge/-_GET_SUPPORT-blue?style=for-the-badge&color=004577)](https://www.sentrysoftware.com/about/index.html#section-contact)
+[![Static Badge](https://img.shields.io/badge/DOWNLOAD%20FOR%20WINDOWS-.cfg-blue?style=for-the-badge&color=B071DC)](https://github.com/sentrysoftware/studioX-templates/raw/refs/heads/master/templates/data-protector-Backup/dpForWin.cfg) [![Static Badge](https://img.shields.io/badge/DOWNLOAD%20FOR%20UNIX-.cfg-blue?style=for-the-badge&color=4CAF50)](https://github.com/sentrysoftware/studioX-templates/raw/refs/heads/master/templates/data-protector-Backup/dpForUnix.cfg) [![Static Badge](https://img.shields.io/badge/-_GET_SUPPORT-blue?style=for-the-badge&color=004577)](https://www.sentrysoftware.com/about/index.html#section-contact)
 
 These are Monitoring Studio X templates for monitoring Micro Focus Data Protector on Windows and Linux/UNIX platforms.
 
