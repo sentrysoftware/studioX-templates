@@ -1,8 +1,9 @@
 Weather and Air Quality (AirVisual)
 ===================================
 
-[![Download](https://img.shields.io/badge/Download-Click%20Here-blue)](https://raw.githubusercontent.com/sentrysoftware/studioX-templates/refs/heads/master/templates/airVisual/airVisual.cfg) [![Need Support?](https://img.shields.io/badge/Need%20Support%3F-Click%20Here-blue)](https://www.sentrysoftware.com/bmc/about#section-contact)
+[![Static Badge](https://img.shields.io/badge/DOWNLOAD-.cfg-blue?style=for-the-badge&color=B071DC)](https://github.com/sentrysoftware/studioX-templates/raw/refs/heads/master/templates/airVisual/airVisual.cfg) [![Static Badge](https://img.shields.io/badge/-_GET_SUPPORT-blue?style=for-the-badge&color=004577)](https://www.sentrysoftware.com/about/index.html#section-contact)
 
+> [!CAUTION]
 > No support is provided for this template unless purchased. Refer to [Support for Monitoring Studio X Templates](../../support.md) for more details.
 
 Provides numeric information about weather and air quality:
