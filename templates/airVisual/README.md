@@ -1,7 +1,8 @@
 Weather and Air Quality (AirVisual)
 ===================================
 
-![Static Badge](https://img.shields.io/badge/Download%20-%20Click%20Here-blue?link=https%3A%2F%2Fraw.githubusercontent.com%2Fsentrysoftware%2FstudioX-templates%2Frefs%2Fheads%2Fmaster%2Ftemplates%2FairVisual%2FairVisual.cfg)      ![Static Badge](https://img.shields.io/badge/Need%20Support%3F%20-%20Click%20Here-blue?link=https%3A%2F%2Fwww.sentrysoftware.com%2Fbmc%2Fabout%23section-contact)
+[![Download](https://img.shields.io/badge/Download-Click%20Here-blue)](https://raw.githubusercontent.com/sentrysoftware/studioX-templates/refs/heads/master/templates/airVisual/airVisual.cfg) [![Need Support?](https://img.shields.io/badge/Need%20Support%3F-Click%20Here-blue)](https://www.sentrysoftware.com/bmc/about#section-contact)
+
 
 > No support is provided for this template unless purchased. Refer to [Support for Monitoring Studio X Templates](../../support.md) for more details.
 
