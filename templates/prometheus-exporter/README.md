@@ -1,11 +1,17 @@
 Prometheus Exporter
 ===================
 
+[![Static Badge](https://img.shields.io/badge/DOWNLOAD-.cfg-blue?style=for-the-badge&color=B071DC)](https://github.com/sentrysoftware/studioX-templates/raw/refs/heads/master/templates/prometheus-exporter/prometheusExporterTemplate.cfg) [![Static Badge](https://img.shields.io/badge/-_GET_SUPPORT-blue?style=for-the-badge&color=004577)](https://www.sentrysoftware.com/about/index.html#section-contact)
+
+> [!CAUTION]
+> No support is provided for this template unless purchased. Refer to [Support for Monitoring Studio X Templates](../../support.md) for more details.
+
 Requires Monitoring Studio X v10.3 or Higher.
 
 Consumes data exposed by a Prometheus exporter.
 
 The data is sorted by metric types:
+
 * Bytes (converted to MB to try and stay below the highest acceptable value for a PATROL parameter)
 * Fractions
 * Hertz / MHz
