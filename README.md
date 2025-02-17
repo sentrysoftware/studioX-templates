@@ -26,7 +26,7 @@ Read carefully the associated **README.md** for instructions on the required con
 
 ## Support and Maintenance
 
-To be clear: these monitoring *Templates* may be provided by Sentry Software, but they are provided for free and no support or maintenance is guaranteed on these from [Sentry Support](//www.sentrysoftware.com/support/maintenance-policy.html). Monitoring Studio X itself, however, is fully supported (if you are an entitled customer!).
+To be clear: these monitoring *Templates* may be provided by Sentry Software, but they are provided for free and no support or maintenance is guaranteed on these from [Sentry Support](//www.sentrysoftware.com/bmc/support/maintenance-policy.html). Monitoring Studio X itself, however, is fully supported (if you are an entitled customer!).
 
 Problems with these templates can be [raised on GitHub as an Issue](//github.com/sentrysoftware/studioX-templates/issues). If you find a problem with a *Template*, **DO NOT HESITATE** to fix it yourself and share with the community! See the [Contributing](CONTRIBUTING.md) section below! :-)
 
