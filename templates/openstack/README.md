@@ -1,6 +1,11 @@
 Monitoring OpenStack
 ====================
 
+[![Static Badge](https://img.shields.io/badge/DOWNLOAD-.cfg-blue?style=for-the-badge&color=B071DC)](https://github.com/sentrysoftware/studioX-templates/raw/refs/heads/master/templates/openstack/openstack.cfg) [![Static Badge](https://img.shields.io/badge/-GET_SUPPORT-blue?style=for-the-badge&color=004577)](https://www.sentrysoftware.com/about/index.html#section-contact)
+
+> [!CAUTION]
+> No support is provided for this template unless purchased. Refer to [Support for Monitoring Studio X Templates](../../support.md) for more details.
+
 Monitoring OpenStack environment using the OpenStack Command Line client.
 
 * Images
@@ -13,7 +18,7 @@ Monitoring OpenStack environment using the OpenStack Command Line client.
 
 The monitoring requires the OpenStack CLI to be installed on the (LINUX) server from where the Openstack is monitored. It can also be installed on the same server as the Patrol Agent and Monitoring Studio KM.
 
-https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html
+[Install the OpenStack command-line clients](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html)
 
 Set up
 ------
